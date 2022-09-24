@@ -2,7 +2,7 @@
 from calculator_1 import add, sub, mul, div
 
 
-def arg_calculator(argv):
+def arg_calc(argv):
     n = len(argv) - 1
     if n != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
@@ -25,5 +25,5 @@ def arg_calculator(argv):
 
 if __name__ == "__main__":
     import sys
-    arg_calculator(sys.argv)
+    arg_calc(sys.argv)
 
