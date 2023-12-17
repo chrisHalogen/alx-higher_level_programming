@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Python ORM Exercise
-USE SQL Alchemy
+USE SQL Alchemy 7 - 14
 """
 import sys
 from model_state import Base, State
